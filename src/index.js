@@ -77,7 +77,7 @@ addEvent = () => {
     });
   };
 
-    render() {
+    render(); {
       return (
         <React.Fragment>
           <MDBContainer>
@@ -116,7 +116,7 @@ addEvent = () => {
                       <MDBCol xs="3" className="text-center">
                         <MDBIcon icon="sun" fixed />
                       </MDBCol>
-                      <MDBCol xs="9">Sunny</MDBCol>
+                      <MDBCol xs="9">sunny</MDBCol>
                     </MDBRow>
                     <MDBRow>
                       <MDBCol xs="3" className="text-center">
